@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Woldeamanual Getnet">
     <title>Woldeamanaul Getnet</title>
 
 </head>
@@ -13,30 +14,30 @@
 
 
     <td background ="ASSETS\IMAGES\nav2.jpg" height ="450px" background-repeat = "no-repeata" valign ="top" colspan="2"> 
-        <nav>
+        <nav id ="top">
 
             <h3>
-                <a href="">About</a>
+                <a href="">ABOUT</a>
                 &nbsp;
-            <a href="" >Videos</a>
+            <a href="#video" >VIDEOS</a>
             &nbsp;
             
-            <a href="">Library</a>
+            <a href="#book">BOOKS</a>
             &nbsp;
             
-            <a href="">Art</a>
+            <a href="#gallery">ART</a>
             &nbsp;
             
-            <a href="">Contact</a>
+            <a href="#contact">CONTACT</a>
             &nbsp;
-            <a href="">Articles</a>
+           
             
             
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp; &nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
 
             
             
@@ -97,7 +98,7 @@
         <h2>I post videos on different topics revolving around programming, tech-solutions and tricks.</h2>    <hr width ="100px">
     </td>
     
-    <table background ="ASSETS\IMAGES\sectionyoutube.jpg" cellspacing="60">
+    <table background ="ASSETS\IMAGES\sectionyoutube.jpg" cellspacing="60" id="video">
         <tr>
             <td>
                 <iframe width="340" height="280" src="https://www.youtube.com/embed/SfPIssV9I5c" frameborder=
@@ -148,7 +149,7 @@
 <img src="ASSETS/IMAGES/library.jpg" alt="">
         </td>
         <td bgcolor="#f57542" height ="200px" width="620px" valign="top">
-<h2 align="center">
+<h2 align="center" id="book">
     <br> 10 Awesome Books That Changed My Life <br><br>
           </h2>
           <h3>
@@ -200,7 +201,7 @@ Thinking Fast and Slow : By laureate Daniel Kahneman.
     <table cellspacing="0">
         <tr>
             <td bgcolor="gray" align="center" width="900px" colspan="2">
-                <h1>
+                <h1 id ="gallery">
                   Gallery
                   <hr align="center" width="50px">
                 </h1>
@@ -243,7 +244,7 @@ Since last year, I have been working in " ማህበረ - ቅዱሳን " to paint
     <table bgcolor="#fc6f03" width = "1300px">
         <tr colspan ="2">
             <td  width="600px">
-                <h1 align="center">CONTACT ME</h1>
+                <h1 align="center" id = "contact">CONTACT ME</h1>
                 <hr align="center" width="50px">
 
                 <br>
@@ -257,18 +258,18 @@ Since last year, I have been working in " ማህበረ - ቅዱሳን " to paint
                 <br><br><br>
                     <form action="php.php">
                         <label for="name"> <b>NAME</b></label>
-                         &nbsp;&nbsp;<input type="search" name="name" id="name" size="50" pattern="[a-zA-Z]{2-30s}" >
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="search" name="name" id="name" size="50" pattern="[a-zA-Z]{2,30}" title="invalid name" required >
                          <br>
                          <br><br><br>
                          <label for="email"> <b>E-MAIL</b></label>
-                         &nbsp;&nbsp;<input type="search" name="name" id="name" size="50" pattern="@.+" title="Invalid Email Address">
+                         &nbsp;&nbsp;<input type="search" name="name" id="name" size="50" pattern="@.+" title="Invalid Email Address" required>
 
                          <br><br><br>
                          <label for="title"> <b>SUBJECT</b></label>
                          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
                          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
                          &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-                        <select name="title" id="" >
+                        <select name="title" id="" required >
                             <option value="Business Inquiry"> Business Inquiry</option>
                             <option value="Support"> Want to support</option>
 
@@ -295,6 +296,35 @@ Since last year, I have been working in " ማህበረ - ቅዱሳን " to paint
         </tr>
 
     </table>
+<table >
+<tr >
+    <td width="10000px" bgcolor="white" height="100px">
+        <br><br><br> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp;
+        <a href="#top"><img src="https://img.icons8.com/pastel-glyph/64/000000/logout-rounded-up.png"></a> <br><br><br><br>
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        
+        <a href="https://www.linkedin.com/in/woldeamanual-getnet-48445119b"><img src="https://img.icons8.com/ios-filled/23/000000/linkedin.png"></a>
+        &nbsp;
+
+        <a href="https://t.me/OAKSAS"><img src="https://img.icons8.com/ios-filled/23/000000/sent.png"></a>
+        &nbsp;
+        <a href="https://www.youtube.com/channel/UCsWrSQ6j5cbqzdibAnfOoIQ?view_as=subscriber"><img src="https://img.icons8.com/ios-filled/25/000000/youtube.png"></a>
+        <br><br><br><br>
+    <h4 align="center">        &copy; 2020 Woldeamanual Getnet
+    </h4>
+    </td>
+
+</tr>
+</table>
 </table>
 </body>
 </html>
